@@ -1,0 +1,10 @@
+question,answer
+Can I install a package myself?,"No. IT installs and configures packages so that security, licences and storage stay under control. If your team needs a package, send a request to IT with the business reason."
+Why do we avoid third-party (community) packages?,"Packages from third-party publishers can stop being updated without warning, may not get security fixes, and are not supported by Synology. Management has decided to use packages published by Synology Inc. wherever possible. Every package in this guide is published by Synology Inc. through the official Package Center."
+Are the Open Source packages third-party apps?,"Not in the sense the policy means. They are built by open-source projects (for example php.net, nodejs.org or Docker Inc.), but Synology Inc. packages, signs and publishes them in the official Package Center and ships their updates. They are developer tools, so only IT and Software Engineering use them, with IT approval."
+What is the difference between Synology Drive and File Station?,"Synology Drive is for everyday work: it syncs folders to your PC, shares links, keeps version history and has a mobile app. File Station is the file manager inside DSM, mostly used in the browser. If you are not sure, use Synology Drive."
+I deleted or overwrote a file by mistake. What do I do?,"In Synology Drive, check the file's version history or the Recycle Bin first. If it is not there, contact IT as soon as possible. IT may be able to restore it from a snapshot or a backup."
+How do I work from home or from a regional office?,"Use the Synology Drive desktop or mobile app with the address IT gives you. For other internal systems, IT can set you up with VPN."
+My account is locked or I forgot my password.,"Contact IT. For your security, IT will never ask for your password by chat or email."
+How do I share a file with a customer safely?,"Create a sharing link in Synology Drive, set an expiry date and, for sensitive files, a password. Do not share whole folders outside the company unless IT agrees."
+Who keeps this guide up to date?,"IT. If something is wrong or missing, use the details under Contact IT."

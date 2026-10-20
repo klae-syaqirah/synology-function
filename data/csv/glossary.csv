@@ -1,0 +1,21 @@
+term,meaning
+NAS,Network Attached Storage. Our Synology NAS is a file server on the office network. It stores shared files and runs the packages in this guide.
+DSM,"DiskStation Manager, the operating system of the NAS. You sign in to DSM in a web browser to open apps such as File Station."
+Package Center,"The app store inside DSM. IT installs, updates and removes packages from here."
+Package,An app or service installed on the NAS from Package Center.
+Shared folder,"A top-level folder on the NAS, for example ""Sales"" or ""Finance"". IT decides who can read or change each one."
+DSM account,Your username and password for the NAS. It may be the same as your Windows or domain sign-in.
+QuickConnect,Synology's relay service. It lets Synology apps reach our NAS from outside the office without opening ports on the router.
+VPN,"An encrypted tunnel from your laptop to the office network, so you can use internal services from home or a regional office."
+SMB,"The Windows file-sharing protocol. It lets you open a NAS shared folder as a network drive in Windows, for example drive Z."
+WebDAV,A way to open NAS files over the web (HTTP/HTTPS). Some apps and mobile file managers use it.
+Snapshot,"A read-only, point-in-time copy of a shared folder. Used to restore files quickly after a mistake or a ransomware attack."
+Backup task,"A scheduled job that copies data somewhere else: another NAS, a USB drive or a cloud service."
+3-2-1 rule,"Keep 3 copies of important data, on 2 different types of storage, with 1 copy offsite."
+RAID / SHR,Ways of combining disks so the NAS keeps working when one disk fails. RAID is not a backup: deleted or encrypted files are lost on every disk at once.
+Volume,A storage area built from the NAS disks. Shared folders live on volumes.
+2-step sign-in (2FA),"Signing in with your password plus a second check, such as an approval on your phone or a security key."
+LDAP / Active Directory,Central user directories. They let one username and password work across many systems.
+Container,A packaged app that runs isolated on the NAS through Container Manager (Docker).
+Licence,"Some packages need paid licences for extra users, mailboxes, cameras or features."
+End of life (EOL),Software that no longer gets security fixes. It should be upgraded or removed.

@@ -1,0 +1,10 @@
+id,name,description
+management,Management,"Directors and managers. Oversight of company data, access, reporting and business continuity."
+sales,Sales & Business Development,"Quotations, tenders, customer files and principals' price lists, at HQ and the regional offices."
+marketing,Marketing,"Brochures, catalogues, product photos and videos, website and exhibition material."
+engineering,Engineering & Technical,"Product specialists, application and field service engineers, projects, commissioning and the training centre."
+procurement,"Procurement, Logistics & Warehouse","Purchase orders, supplier documents, stock records, shipping and delivery paperwork."
+finance,Finance & Accounts,"Invoices, payments, statements, audit files and financial reports."
+hr,HR & Admin,"Staff records, policies, forms, leave, office administration and facilities."
+swe,Software Engineering,Developers who build and run internal software and tools.
+it,IT / System Administration,"Runs the NAS, user accounts, backups, security and network services."

@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# Internal copy with our NAS install status - never publish
+private/

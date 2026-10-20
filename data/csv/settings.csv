@@ -1,0 +1,24 @@
+key,value,note
+company_name,KLAE Group,"Shown in the header, footer and page titles."
+site_title,Synology Package Guide,
+intro,"What each package on our Synology NAS does, which department it is for, and how to start using it. Maintained by IT.",Text under the main heading on the overview page.
+logo_url,,"Optional. Path or link to the company logo, e.g. assets/img/logo.png. Empty = text mark."
+nas_url,,"DSM sign-in address, e.g. https://nas.company.local:5001. Never put passwords in this sheet."
+drive_url,,"Synology Drive web address, if different from the DSM address."
+getting_started,"Ask IT for a DSM account if you do not have one yet.
+Sign in to the NAS in a web browser with the address IT gives you.
+Turn on 2-step sign-in when you are asked to (Secure SignIn).
+Install Synology Drive Client on your PC, and the Synology Drive app on your phone if you need files on the move.
+Save work files in your team folder, not on your desktop, so they are backed up and colleagues can find them.",One step per line (Alt+Enter in the cell).
+policy,"Only packages published by Synology Inc. are approved for general use at KLAE Group.
+Packages from other publishers (""contributors""), including community package sources added under Package Center > Settings > Package Sources, must not be installed. Their developers can stop updating them at any time, and Synology does not support them.
+Packages in the Open Source section (for example Apache, PHP, Node.js and WordPress) are developed by outside open-source projects but packaged and published by Synology Inc. They are for the IT and Software Engineering teams only, and need IT approval first.
+Staff do not install, update or remove packages. Send a request to IT. IT checks the business need, licence cost, security and storage impact before installing anything.
+IT keeps the Package Center trust level at ""Synology Inc."" (Package Center > Settings > General > Trust Level) so that unsigned or third-party packages cannot be installed by mistake.",One paragraph per line.
+policy_short,"Only packages published by Synology Inc. are approved. Third-party and community packages are not allowed, and open-source packages need IT approval.",One line shown on the overview page.
+it_contact_name,IT Department,
+it_contact_email,,
+it_contact_phone,,Phone or extension.
+request_form_url,,Optional. Google Form link for access or package requests.
+last_reviewed,2026-10-20,Update this when you review the guide.
+show_nas_status,no,"yes = show install status, installed versions and do-not-uninstall warnings. Keep no on the public site."

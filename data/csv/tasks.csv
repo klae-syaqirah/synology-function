@@ -1,0 +1,19 @@
+group,task,description,apps
+Everyday work,Save and share files with my team,Team folders you can open from HQ and every regional office.,"synology-drive-server, file-station"
+Everyday work,Open office files from home or a regional office,Work away from your desk without emailing files to yourself.,"synology-drive-server, quickconnect, vpn-server"
+Everyday work,Send a large file to a customer or supplier,Share a download link instead of a big email attachment.,"synology-drive-server, file-station"
+Everyday work,Edit a document or spreadsheet together,Several people work on the same file at the same time.,"synology-office, synology-drive-server"
+Everyday work,Find a file I saved somewhere,Search file names and contents across the NAS.,universal-search
+Everyday work,Keep site and product photos organised,Upload from your phone and sort into shared albums.,synology-photos
+Everyday work,"Company email, calendar and chat","Mail, meetings and messages hosted on our own NAS.","synology-mailplus-server, synology-mailplus, synology-calendar, synology-chat-server"
+Backup & recovery,Back up my PC or laptop,Especially laptops that travel to customer sites.,active-backup-for-business
+Backup & recovery,Get back a file I deleted or overwrote,Restore an earlier version or recover from the recycle bin.,"synology-drive-server, snapshot-replication"
+Backup & recovery,Keep an offsite copy of company data,"Protection against disk failure, fire, theft and ransomware.","hyper-backup, hyper-backup-vault, snapshot-replication"
+Backup & recovery,Back up Microsoft 365 or Google Workspace,"Mailboxes, OneDrive or Google Drive, calendars and contacts.","active-backup-for-microsoft-365, active-backup-for-google-workspace"
+Backup & recovery,Copy files to or from a USB drive,Plug in a drive and copy automatically.,usb-copy
+IT & development,Sign in more securely,Two-step sign-in with phone approval or a security key.,secure-signin-service
+IT & development,Watch office or warehouse cameras,Record and review CCTV footage.,surveillance-station
+IT & development,Host an internal website or web app,Run intranet pages and internal tools on the NAS.,"web-station, container-manager"
+IT & development,Keep source code in a private Git server,Company code stays on company hardware.,git-server
+IT & development,Use AI features in Office and MailPlus,"Connect an approved AI provider, controlled by IT.",synology-ai-console
+IT & development,Check NAS health and disk space,"Disk status, free space and alerts.","storage-manager, storage-analyzer, active-insight"
